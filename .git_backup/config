@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/swapnil-r-patil/mukti_share.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
+[remote "target_repo"]
+	url = https://github.com/swapnil-r-patil/Mukti_01.git
+	fetch = +refs/heads/*:refs/remotes/target_repo/*
